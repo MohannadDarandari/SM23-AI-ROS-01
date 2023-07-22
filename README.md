@@ -3,7 +3,7 @@ Installing full Smart-Methods Ros packages for robot arm
 # installing process
 1- install Virtual Box (https://www.virtualbox.org/wiki/Downloads)
 
-2- install ubuntu 18.04 virson (/https://releases.ubuntu.com/18.04)
+2- install ubuntu 18.04 version (/https://releases.ubuntu.com/18.04)
 
 3- open VB, click new, select VB Name (Name: ROS_Naif)
 # Process of ROS installition inside ubunto
@@ -33,6 +33,7 @@ source ~/.bashrc
 10) source /opt/ros/melodic/setup.bash
 
 11) Creating a workspace for catkin:
+
 mkdir -p ~/catkin_ws/src
 
 cd ~/catkin_ws/
@@ -58,6 +59,7 @@ catkin_make
 20) sudo apt-get install ros-melodic-ros-controllers ros-melodic-ros-control
 
 21) Compile the package:
+
  catkin_make
 
 23) Lunch ROS:
