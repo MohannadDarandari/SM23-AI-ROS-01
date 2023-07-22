@@ -2,11 +2,13 @@
 Installing full Smart-Methods Ros packages for robot arm
 # installing process
 1- install Virtual Box (https://www.virtualbox.org/wiki/Downloads)
++
 2- install ubuntu 18.04 virson (/https://releases.ubuntu.com/18.04)
++
 3- open VB, click new, select VB Name (Name: ROS_Naif)
 # Process of ROS installition inside ubunto
-Select Terminal inside ubunto then follow the given instructions on (https://wiki.ros.org/)
-our compatible virson of ROS on ubunto 18.04 is ROS melodic
+1- Select Terminal inside ubunto then follow the given instructions on (https://wiki.ros.org/)
+2- our compatible virson of ROS on ubunto 18.04 is ROS melodic
 # ROS melodic installition commands in ubunto termeinal by order:
 1) sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
