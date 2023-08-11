@@ -6,11 +6,11 @@ Installing full Smart-Methods Ros packages for robot arm
 2- Install ubuntu 18.04 version (/https://releases.ubuntu.com/18.04)
 
 3- Open Virtual Box, click new, select VB Name (Name: ROS_Naif)
-# Process of ROS installation inside ubunto
+# Process of ROS installation inside ubuntu
 1- Select Terminal inside ubunto then follow the given instructions on (https://wiki.ros.org/)
 
-2- Our compatible version of ROS on ubunto 18.04 is ROS melodic
-# ROS melodic installation commands guide in ubunto terminal by order:
+2- Our compatible version of ROS on ubuntu 18.04 is ROS melodic
+# ROS melodic installation commands guide in ubuntu terminal by order:
 1) sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 2) sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -67,7 +67,7 @@ catkin_make
 roslaunch robot_arm_pkg check_motors.launch
 # Resources used to download ROS:
 1) Smart-Methods installation commands of ROS (https://s-m.com.sa/ros.txt)
-2) Ubunto install of ROS packages(http://packages.ros.org/ros/ubuntu)
+2) Ubuntu install of ROS packages(http://packages.ros.org/ros/ubuntu)
 3) Creating a workspace for catkin (http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
 4) Ubuntu install of ROS Melodic (http://wiki.ros.org/melodic/Installation/Ubuntu)
 # Tutorials of ROS packages after installation:
